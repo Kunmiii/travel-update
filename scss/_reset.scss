@@ -1,0 +1,32 @@
+@import '../scss/variable';
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .5s linear;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    background: $black;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: $main-color;
+    border-radius: 5rem;
+}
